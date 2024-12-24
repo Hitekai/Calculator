@@ -1,5 +1,5 @@
 operand1 = float(input("Введите первый операнд: "))
-operator = input("Введите оператор (+, -, *, /): ")
+operator = input("Введите оператор (+, -, *, /, **): ")
 operand2 = float(input("Введите второй операнд: "))
 
 if operator == '+':
