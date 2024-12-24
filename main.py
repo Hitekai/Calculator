@@ -8,6 +8,8 @@ elif operator == '-':
     result = operand1 - operand2
 elif operator == '*':
     result = operand1 * operand2
+elif operator == '**':
+    result = operand1 ** operand2
 elif operator == '/':
     if operand2 != 0:
         result = operand1 / operand2
