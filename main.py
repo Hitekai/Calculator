@@ -12,7 +12,7 @@ elif operator == '/':
     if operand2 != 0:
         result = operand1 / operand2
     else:
-        result = "Ошибка: Деление на ноль!"
+        result = "Ошибка: Нельзя делить на ноль!"
 else:
     result = "Ошибка: Неподдерживаемый оператор!"
 
